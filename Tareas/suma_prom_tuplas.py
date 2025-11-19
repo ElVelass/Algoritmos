@@ -1,0 +1,5 @@
+numeros = tuple(list(map(int, input("Ingrese la tupla 1 ").split())))
+suma = sum(numeros)
+promedio = suma / len(numeros)
+print(f"Suma = {suma}")
+print(f"Promedio = {promedio}")
